@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/carol/Projects/HandlingRefreshTokens/HandlingRefreshTokens.WebAPIs/HandlingRefreshTokens.WebAPIs.csproj": {}
+  },
+  "projects": {
+    "/Users/carol/Projects/HandlingRefreshTokens/HandlingRefreshTokens.WebAPIs/HandlingRefreshTokens.WebAPIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carol/Projects/HandlingRefreshTokens/HandlingRefreshTokens.WebAPIs/HandlingRefreshTokens.WebAPIs.csproj",
+        "projectName": "HandlingRefreshTokens.WebAPIs",
+        "projectPath": "/Users/carol/Projects/HandlingRefreshTokens/HandlingRefreshTokens.WebAPIs/HandlingRefreshTokens.WebAPIs.csproj",
+        "packagesPath": "/Users/carol/.nuget/packages/",
+        "outputPath": "/Users/carol/Projects/HandlingRefreshTokens/HandlingRefreshTokens.WebAPIs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carol/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
